@@ -1,2 +1,2 @@
 # baseball-metrics
-Visualize baseball metrics
+Visualize baseball metrics with streamlit
