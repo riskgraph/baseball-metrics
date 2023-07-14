@@ -1,4 +1,4 @@
 numpy
 matplotlib
 pandas
-snowflake-connector-python==3.0.4
+-r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.7.9/tested_requirements/requirements_37.reqs
