@@ -1,6 +1,6 @@
 pyqt5==5.12
-pyqtwebengine=5.12
-urllib3===1.21.1
+pyqtwebengine==5.12
+urllib3==1.21.1
 pyarrow==10.0.1
 numpy==1.16.6
 numexpr==2.7.3
