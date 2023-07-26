@@ -2,7 +2,7 @@ urllib3==1.26.0
 pyarrow==10.0.1
 numpy
 matplotlib
-pandas
+pandas==1.5.2
 pillow==9.5
 asn1crypto==1.5.1
 certifi==2023.5.7
