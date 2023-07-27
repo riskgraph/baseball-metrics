@@ -1,7 +1,7 @@
 urllib3==1.21.1
-pyqt5==5.15.6
-pyqtwebengine==5.15.6
-PyQt5_sip==12.12.2
+#pyqt5==5.15.6
+#pyqtwebengine==5.15.6
+#PyQt5_sip==12.12.2
 pyarrow==10.0.1
 numpy
 numexpr==2.7.3
