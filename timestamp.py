@@ -7,24 +7,24 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.title("Patient Performance trajectory")
-"V2"
-with st.form(key = "form1"):
-        study_selection = st.selectbox('Select a Study', options=[15218191, 15224811, 15224428, 15224679])
-        patient_selection = st.text_input('Input a Patient ID', '1')
-        day_selection = st.text_input("Input a day to see a patient's progress upto", '-1')
-        m1_selection = st.text_input('Input an efficacy weight', '60')
-        m2_selection = st.text_input('Input a risk weight', '30')
-        m3_selection = st.text_input('Input a toxicity weight', '10')
-        submit_button = st.form_submit_button(label = "Enter")
+"V3"
+#with st.form(key = "form1"):
+#        study_selection = st.selectbox('Select a Study', options=[15218191, 15224811, 15224428, 15224679])
+#        patient_selection = st.text_input('Input a Patient ID', '1')
+#        day_selection = st.text_input("Input a day to see a patient's progress upto", '-1')
+#        m1_selection = st.text_input('Input an efficacy weight', '60')
+#        m2_selection = st.text_input('Input a risk weight', '30')
+#        m3_selection = st.text_input('Input a toxicity weight', '10')
+#        submit_button = st.form_submit_button(label = "Enter")
 
-target_id = int(patient_selection)
-date_until = int(day_selection)
+target_id = int(9)
+date_until = int(-1)
 
-m1 = int(m1_selection)
-m2 = int(m2_selection)
-m3 = int(m3_selection)
+m1 = int(60)
+m2 = int(30)
+m3 = int(10)
 
-study_id = str(study_selection)
+study_id = str(15218191)
 
 ctx = snowflake.connector.connect(
           user="hannah",
