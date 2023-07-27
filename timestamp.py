@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.title("Patient Performance trajectory")
+"V2"
 with st.form(key = "form1"):
         study_selection = st.selectbox('Select a Study', options=[15218191, 15224811, 15224428, 15224679])
         patient_selection = st.text_input('Input a Patient ID', '1')
@@ -15,7 +16,6 @@ with st.form(key = "form1"):
         m2_selection = st.text_input('Input a risk weight', '30')
         m3_selection = st.text_input('Input a toxicity weight', '10')
         submit_button = st.form_submit_button(label = "Enter")
-        "Processing line 18"
 
 target_id = int(patient_selection)
 date_until = int(day_selection)
