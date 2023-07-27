@@ -15,4 +15,5 @@ with st.form(key = "form1"):
         m2_selection = st.text_input('Input a risk weight', '30')
         m3_selection = st.text_input('Input a toxicity weight', '10')
         submit_button = st.form_submit_button(label = "Enter")
-        print("Hello, World!")
+
+        "Hello, **World**!"
