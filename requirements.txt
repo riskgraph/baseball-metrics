@@ -1,5 +1,5 @@
 numpy
 matplotlib
 pandas
-#urllib3==1.25
+urllib3==1.26.0
 -r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/main/tested_requirements/requirements_38.reqs
